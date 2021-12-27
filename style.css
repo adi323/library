@@ -1,0 +1,123 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	background-color: #F89880;
+}
+#home{
+	padding-left: 75px;
+	opacity: 1.2;
+	background-image: url("./src/home.jpg");
+	background-size: cover;
+	background-repeat: none;
+	font-family: sans-serif;
+	text-align: left;
+	height: 100vh;
+}
+#home h1{
+	transform: translateY(105%);
+	color: whitesmoke;
+	text-shadow: 5px 5px 6px #000;
+	background-color: transparent;
+	font-family: sans-serif;
+	font-size: 95px;
+}
+#home h6{
+	transform: translateY(270px);
+	color: whitesmoke;
+	text-shadow: 5px 5px 5px #000;
+	background-color: transparent;
+	font-family: sans-serif;
+	font-size: 20px;
+}
+#mq{
+	background-color: white;
+	width: 98.9%;
+	opacity: 0.8;
+	padding-left: 10px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+marquee,u{
+	font-size: 20px;
+	color: darkred;
+	background-color: transparent;
+}
+#book-list{
+	background-color: transparent;
+	padding-top: 15px;
+	height: fit-content;
+	overflow-x: hidden;
+}
+#stat-list{
+	background-color: blanchedalmond;
+	height: fit-content;
+}
+#book-list h1{
+	font-size: 50px;
+}
+#container {
+	padding: 30px;
+  	margin: 0 auto;
+  	display: grid;
+  	grid-gap: 1rem;
+  	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  	
+}
+#container div{
+	background-color: wheat;
+	border-radius: 5%;
+	font-size: 18px;
+	padding: 20px;
+	text-align: center;
+	width: fit-content;
+	display: block;
+}
+#container div p{
+	background-color: transparent;
+	margin: 15px;
+}
+#contact{
+	border: 2px solid green;
+	margin: 0px;
+	width: 100%;
+	background-color: blue;
+	height: 100vh;
+}
+#contact{
+	background-image: url('./src/cnt.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+#dt{
+	background-color: white;width: 70%;
+	height: 70%;
+	padding-top: 40px;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	transform: translate(20%,20%);
+	font-size: 25px;
+}
+#dt h6{
+	text-align: center;
+	margin-top: 100px;
+	padding: 50px;
+	background-color: transparent;
+	font-size: 25px;
+}
+#btn{
+	transform: translateX(45%);
+}
+#btn h4{
+	background-color: transparent;
+	padding: 8px;
+	border-radius: 5%;
+	width: fit-content;
+	border: 2px solid #F89880;
+}
+#btn h4:hover{
+	background-color: #F89880;
+
+}
